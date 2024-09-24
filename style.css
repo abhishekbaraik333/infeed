@@ -40,8 +40,7 @@ a {
 }
 
 .hero {
-
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -160,7 +159,7 @@ a {
   margin-right: 20px;
 }
 .section-1 {
-    width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -565,13 +564,18 @@ a {
   display: flex;
   transition: all 0.3s ease;
   animation: horizontal-scroll 40s linear infinite;
+  animation-play-state: running; /* Default state is running */
 }
+
 .reviews-items:hover {
   transform: translateX(0%);
+  animation-play-state: paused; /* Pause the animation when hovered */
 }
+
 .review-item:hover {
   transform: rotate(-5deg);
 }
+
 .bg-text-green {
   color: #fff6e7;
   background-color: #007656;
@@ -612,7 +616,6 @@ a {
 .author-detail {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
 }
 .review-item-title {
   font-family: "bold";
@@ -683,6 +686,10 @@ a {
   font-family: "bold";
   color: #ffccde;
   font-size: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .section-7-contact {
   font-family: "bold";
@@ -692,7 +699,7 @@ a {
   margin-top: -10px;
 }
 .get-in-touch {
-    width: 100vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -911,13 +918,12 @@ a {
   }
 }
 
-
 @media (max-width: 767px) {
-    .hero{
-        height: 112vh;
-        width: 100%;
-        overflow: hidden;
-    }
+  .hero {
+    height: 112vh;
+    width: 100%;
+    overflow: hidden;
+  }
 
   .section-3-data {
     width: 95%;
@@ -981,12 +987,11 @@ a {
   }
 }
 @media screen and (max-width: 1023px) {
-
-    .hero{
-        height: 115vh;
-        width: 100%;
-        overflow: hidden;
-    }
+  .hero {
+    height: 115vh;
+    width: 100%;
+    overflow: hidden;
+  }
 
   .hero,
   .section-2 {
@@ -1006,14 +1011,14 @@ a {
     height: 70px;
     margin-top: -70px;
   }
-  .section-1{
+  .section-1 {
     margin-top: 150px;
   }
-  .section-1-data{
+  .section-1-data {
     flex-direction: column;
   }
-  
-  .section-1-col{
+
+  .section-1-col {
     width: 100%;
     position: relative;
     margin-top: 50px;
@@ -1023,11 +1028,10 @@ a {
     margin-bottom: 10px;
   }
 
-  .topic-icons{
+  .topic-icons {
     position: absolute;
     top: -135px;
   }
-
 
   .hero-data,
   .section-2-data {
@@ -1036,7 +1040,7 @@ a {
     justify-content: center;
     align-items: center;
   }
-  
+
   .section-2-col-1 {
     width: 60%;
     text-align: center;
@@ -1044,7 +1048,7 @@ a {
   .title-bg-below {
     display: none;
   }
- 
+
   .section-2-col-2 {
     width: 80%;
     margin-top: 20px;
@@ -1053,17 +1057,17 @@ a {
     justify-content: center;
   }
 
-  .section-5-title-section{
+  .section-5-title-section {
     justify-content: center;
     padding: 0 5%;
   }
-  .section-7{
+  .section-7 {
     padding: 0 8px;
   }
-  .get-in-touch{
+  .get-in-touch {
     margin-top: 10px;
   }
-  .quote-img{
+  .quote-img {
     margin-left: 0;
   }
 
@@ -1076,7 +1080,6 @@ a {
 }
 
 @media (max-width: 770px) {
-  
   .main-app-img {
     margin: 0;
   }
@@ -1089,7 +1092,6 @@ a {
   .header-logo-text img {
     width: 50px;
   }
-
 
   .section-3-title,
   .section-5-title {
@@ -1135,64 +1137,79 @@ a {
   }
 }
 @media screen and (max-width: 550px) {
-    .header-logo-text h1 {
-        font-size: 32px;
-      }
+  .header-logo-text h1 {
+    font-size: 32px;
+  }
 
   .section-3-title,
   .section-5-title,
   .section-7-title {
+    font-size: 40px;
+  }
+
+  .section-7-contact {
     font-size: 50px;
   }
 
-  .section-3-item-topics-item{
+  .message {
+    width: 50px;
+    height: 50px;
+  }
+
+  .review-item {
+    width: 100vw;
+    padding: 15px;
+  }
+
+  .section-3-item-topics-item {
     margin-right: 7px;
   }
   .quote-img {
     width: 50px;
     height: 50px;
   }
-  .footer{
+  .footer {
     height: fit-content;
   }
 
-  .footer-data-col-1{
+  .footer-data-col-1 {
     width: 100%;
     height: inherit;
     gap: 40px;
     flex-direction: column;
   }
 
-  .legal, .app-link{
+  .legal,
+  .app-link {
     width: 50%;
     margin-left: 0;
   }
 
-  .legal a{
+  .legal a {
     display: flex;
     justify-content: center;
   }
 
-  .app-link a{
+  .app-link a {
     display: flex;
     justify-content: center;
   }
 
-  .social{
+  .social {
     gap: 6px;
   }
 
-  .social-item{
+  .social-item {
     width: initial;
     gap: 20px;
   }
 
-  .footer-data-col-1-section-1{
+  .footer-data-col-1-section-1 {
     width: 100%;
     justify-content: center;
   }
 
-  .footer-data-col-1-section-2{
+  .footer-data-col-1-section-2 {
     width: 100%;
     align-items: center;
     gap: 10px;
