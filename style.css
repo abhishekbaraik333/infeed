@@ -916,74 +916,7 @@ a {
   }
 }
 
-@media (max-width: 767px) {
-  .hero {
-    height: 112vh;
-    width: 100%;
-    overflow: hidden;
-  }
-
-  .section-3-data {
-    width: 95%;
-  }
-  .section-7 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .store-links {
-    justify-content: center;
-  }
-  .section-1-col-title,
-  .section-3-title,
-  .section-7-title,
-  .section-7-contact {
-    font-size: 60px;
-  }
-  .logo-short {
-    font-size: 40px;
-    width: 50px;
-    height: 50px;
-  }
-  .logo-sub-text-short {
-    font-size: 40px;
-  }
-  .section-col-1-desc {
-    font-size: 19px;
-  }
-  .section-2-title {
-    font-size: 60px;
-  }
-  .list .question {
-    font-size: 30px;
-  }
-  .section-6-line-content {
-    font-size: 40px;
-    height: 60px;
-  }
-  .social-img {
-    width: 60px;
-    height: 60px;
-  }
-  .section-6-line img {
-    width: 50px;
-    height: 50px;
-  }
-  .section-7-desc {
-    width: 60vw;
-  }
-  .section-3-item-title {
-    font-family: "bold";
-    font-size: 40px;
-  }
-  .message {
-    width: 70px;
-    height: 70px;
-    margin-top: -50px;
-    margin-right: 100px;
-  }
-}
+  
 @media screen and (max-width: 1023px) {
   .hero {
     height: 115vh;
@@ -1134,7 +1067,74 @@ a {
     display: none;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 767px) {
+  .hero {
+    height: 112vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .section-3-data {
+    width: 95%;
+  }
+  .section-7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .store-links {
+    justify-content: center;
+  }
+  .section-1-col-title,
+  .section-3-title,
+  .section-7-title,
+  .section-7-contact {
+    font-size: 60px;
+  }
+  .logo-short {
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+  }
+  .logo-sub-text-short {
+    font-size: 40px;
+  }
+  .section-col-1-desc {
+    font-size: 19px;
+  }
+  .section-2-title {
+    font-size: 60px;
+  }
+  .list .question {
+    font-size: 30px;
+  }
+  .section-6-line-content {
+    font-size: 40px;
+    height: 60px;
+  }
+  .social-img {
+    width: 60px;
+    height: 60px;
+  }
+  .section-6-line img {
+    width: 50px;
+    height: 50px;
+  }
+  .section-7-desc {
+    width: 60vw;
+  }
+  .section-3-item-title {
+    font-family: "bold";
+    font-size: 40px;
+  }
+  .message {
+    width: 70px;
+    height: 70px;
+    margin-top: -50px;
+    margin-right: 100px;
+  }
+
   .header-logo-text h1 {
     font-size: 32px;
   }
